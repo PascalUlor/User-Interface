@@ -79,6 +79,8 @@ nav img {
 }
 main {
 	padding: 20px;
+	margin: auto;
+	width: 960px;
 }
 .main-text {
 	display: inline-block;
@@ -104,7 +106,7 @@ button {
 	padding: 10px;
 	margin: auto;
 	width: 100%;
-	align-content: center;
+	align-self: auto;
 }
 
 .top-level {
