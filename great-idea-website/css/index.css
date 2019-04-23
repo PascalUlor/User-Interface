@@ -116,3 +116,15 @@ button {
 	display: inline-block;
 	width: 25%;
 }
+.contact {
+	display: inline-block;
+	padding: 10px;
+}
+
+address, p {
+	padding: 10px;
+}
+
+footer {
+	text-align: center;
+}
