@@ -2,7 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
+/* resets */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -64,6 +64,8 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+/* header section */
 header {
 	display: inline-block;
 	padding: 10px;
@@ -78,6 +80,8 @@ header {
 	margin-left: 80px;
 	vertical-align: middle;
 }
+
+/* nav section */
 nav {
 	display: inline-block;
 	vertical-align: middle;
@@ -88,7 +92,12 @@ nav a {
 	text-decoration: none;
 	color: #ada8a8;
 }
+nav a:hover {
+	color: #000;
+	border-bottom: 1px solid #000;
+}
 
+/* main section */
 .container {
 	padding: 20px;
 	margin: auto;
@@ -101,9 +110,6 @@ nav a {
 	width: 50%;
 }
 
-.container .main-content {
-	display: inline-block;
-}
 
 button {
 	padding: 5px 30px 5px 30px;
@@ -112,15 +118,15 @@ button {
 	border: 1px solid #747070;
 	color: #747070;
 }
-.section-1 {
+.main-content {
 padding: 10px;
 margin-bottom: 50px;
 margin-top: 85px;
 }
-.section-1 img{
+.main-content img{
 	margin-left: 60px;
 }
-.section-2 {
+.details-section {
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
 	padding: 10px;
@@ -128,19 +134,19 @@ margin-top: 85px;
 	width: 100%;
 }
 
-.top-level {
+.features-section, .about-section {
 	display: inline-block;
 	width: 49%;
 	vertical-align: top;
 	padding: 20px 20px 20px 0;
 }
-.bottom-level{
+.services-section, .product-section, .vision-section{
 	display: inline-block;
 	width: 33%;
 	vertical-align: top;
 	padding: 20px 20px 20px 0;
 }
-.contact {
+.contact-section {
 	display: inline-block;
 	padding: 10px;
 	margin-top: 20px;
@@ -149,7 +155,7 @@ margin-top: 85px;
 address, p {
 	padding: 10px 10px 10px 0;
 }
-
+/* footer section*/
 footer {
 	text-align: center;
 }
