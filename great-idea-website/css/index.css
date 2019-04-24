@@ -67,30 +67,41 @@ h1, h2, h3, h4, h5 {
 header {
 	display: inline-block;
 	padding: 10px;
+	margin-bottom: 50px;
+	position: fixed;
+	background-color: aquamarine;
+	z-index: 1;
+}
+.logo-container {
+	display: inline-block;
+	padding: 10px;
+	margin-left: 80px;
+	vertical-align: middle;
+}
+nav {
+	display: inline-block;
+	vertical-align: middle;
 }
 nav a {
-	padding: 10px;
-	margin: 10px;
+	padding: 15px 15px 15px 0;
+	margin: 20px 33px 20px 0;
 	text-decoration: none;
-	color: #5c5959;
+	color: #ada8a8;
 }
-nav img {
-	margin-left: 50px;
-}
-main {
+
+.container {
 	padding: 20px;
 	margin: auto;
 	width: 960px;
 }
 .main-text {
 	display: inline-block;
-	font-size: 100px;
+	font-size: 85px;
 	text-align: center;
 	width: 50%;
-	vertical-align: top;
 }
 
-main .main-content {
+.container .main-content {
 	display: inline-block;
 }
 
@@ -98,7 +109,16 @@ button {
 	padding: 5px 30px 5px 30px;
 	font-size: 20px;
 	background-color: #fff;
-	border: 1px solid;
+	border: 1px solid #747070;
+	color: #747070;
+}
+.section-1 {
+padding: 10px;
+margin-bottom: 50px;
+margin-top: 85px;
+}
+.section-1 img{
+	margin-left: 60px;
 }
 .section-2 {
 	border-top: 1px solid black;
@@ -106,25 +126,28 @@ button {
 	padding: 10px;
 	margin: auto;
 	width: 100%;
-	align-self: auto;
 }
 
 .top-level {
 	display: inline-block;
-	width: 30%;
+	width: 49%;
 	vertical-align: top;
+	padding: 20px 20px 20px 0;
 }
 .bottom-level{
 	display: inline-block;
-	width: 25%;
+	width: 33%;
+	vertical-align: top;
+	padding: 20px 20px 20px 0;
 }
 .contact {
 	display: inline-block;
 	padding: 10px;
+	margin-top: 20px;
 }
 
 address, p {
-	padding: 10px;
+	padding: 10px 10px 10px 0;
 }
 
 footer {
